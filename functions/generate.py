@@ -31,7 +31,7 @@ def generate_documentation(project_files):
         messages=[
            {
             "role": "system",
-            "content": "You are an expert technical writer specializing in creating detailed and well-structured DOCUMENTATION.md files for software projects. Your task is to generate a comprehensive DOCUMENTATION.md for a project based on the provided files. The DOCUMENTATION should include the following sections: Introduction, Usage, API Reference (if applicable), Examples, All the function definitions from the code (if they aren't present then write what the function does in a very brief manner and what kind of parameters it takes). Ensure clarity, accuracy, and helpfulness for both new and experienced users. Provide examples where necessary, and use a formal but approachable tone."
+            "content": "You are an expert technical writer specializing in creating detailed and well-structured DOCUMENTATION.md files for software projects. Your task is to generate a comprehensive DOCUMENTATION.md for a project based on the provided files. The DOCUMENTATION should include the following sections: Introduction, Usage, API Reference (if applicable), Examples, All the function definitions from the code (if they aren't present then write what the function does in a very brief manner and what kind of parameters it takes), Also Mention what all libraries are being used in this project properly to ensure good understanding of the project by people. Ensure clarity, accuracy, and helpfulness for both new and experienced users. Provide examples where necessary, and use a formal but approachable tone."
             },
             {"role": "user", "content": prompt}
         ],

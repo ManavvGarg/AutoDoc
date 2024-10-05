@@ -13,6 +13,14 @@ AutoDoc is a tool that helps you automatically document your projects. It simpli
 
 Currently, AutoDoc does not have a formal API defined.
 
+**Libraries Used**
+
+1. Groq
+2. OS (system module)
+3. Path (pathlib)
+4. python-dotenv
+5. tkinter
+
 **Function Definitions**
 
 - `generate()`: Generates documentation and saves it to the `docs` directory.
