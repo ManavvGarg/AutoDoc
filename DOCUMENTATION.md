@@ -7,7 +7,7 @@ AutoDoc is a tool that helps you automatically document your projects. It simpli
 **Getting Started**
 
 1. Clone the repository
-2. Get your own Groq API key for free
+2. Get your own Groq API key for free [here](https://console.groq.com/playground)
 3. Run the "main.py" python file and Select your directory to automatically document your code.
 
 **API Reference**
